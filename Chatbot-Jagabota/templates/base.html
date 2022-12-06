@@ -1,0 +1,465 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="/static/responsive.css">
+    <link rel="stylesheet" href="/static/stylebot.css">
+
+    <!-- Logo Tittle -->
+    <link rel="icon" href="/static/images/logo.png" type="image/x-icon">
+
+    <title>Jagabota</title>
+  </head>
+
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark position-fixed w-100" style= "background-color: #213957;">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="/static/images/logo.png" alt="" width="30" class="d-inline-block align-text-top me-3"> Pariwisata Jawa Tengah</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item mx-3">
+                <a class="nav-link active" aria-current="page" href="#hero">Beranda</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#wisata">Wisata</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#aboutus">About Us</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#contact">Kontak</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <section id="hero">
+        <div class="container-fluid overlay h-100">
+          <div class="row h-100">
+            <div class="hero-tagline my-auto">
+              <h1 class="col-md-8 ">Membantu Temukan 
+                Wisata yang ada di Jawa Tengah</h1>
+              <p class="col-md-7"> Kami hadir dengan <span class="fw-bold">JAGABOTA</span> (Jateng Gayeng Bot Pariwisata)
+                  untuk mempermudah pencarian tempat wisata yang ingin 
+                  kalian explore bersama orang-orang tersayang.</p>
+              <!--<img src="/static/images/logo jagabota.png" alt="" width="80" class="logo-chatbot">
+              <button class="button-lg-primary">JAGABOTA</button>-->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Wisata Section -->
+      <section id="wisata">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col-12 text-center">
+              <h2>Explore Wisata Jawa Tengah</h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+              <div class="card p-2" style="width: 22rem;">
+                <img src="/static/images/borobudur.png" alt="">
+                <div class="card-body">
+                  <h4>Candi Borobudur</h4>
+                  <p class="mb-4 lh-sm">Jl. Badrawati, Kw. Candi Borobudur, Kec. Borobudur <br><br> Kabupaten Magelang</p>
+                </div>
+                <div class="card-price">
+                  <span>
+                    <img src="/static/images/money.png" alt=""> Rp 50.000
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+              <div class="card p-2" style="width: 22rem;">
+                <img src="/static/images/posong.png" alt="">
+                <div class="card-body">
+                  <h4>Posong</h4>
+                  <p class="mb-4 lh-sm"> Tlahap, Kec. Kledung <br><br> Kabupaten Temanggung</p>
+                </div>
+                <div class="card-price">
+                  <span>
+                    <img src="/static/images/money.png" alt=""> Rp 20.000
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+              <div class="card p-2" style="width: 22rem;">
+                <img src="/static/images/museum sudirman.png" alt="">
+                <div class="card-body">
+                  <h4>Museum Sudirman</h4>
+                  <p class="mb-4 lh-sm">Jl. Ade Irma Suryani No.C7, Potrobangsan, Kec. Magelang Utara <br><br> Kota Magelang</p>
+                </div>
+                <div class="card-price">
+                  <span>
+                    <img src="/static/images/money.png" alt=""> Rp Free
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+              <div class="card p-2" style="width: 22rem;">
+                <img src="/static/images/Curug Sibedil.png" alt="">
+                <div class="card-body">
+                  <h4>Curug Sibedil</h4>
+                  <p class="mb-4 lh-sm">Dusun Karangbulu, Sima, Kecamatan Moga <br><br> Kabupaten Pemalang</p>
+                </div>
+                <div class="card-price">
+                  <span>
+                    <img src="/static/images/money.png" alt=""> Rp 5.000
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+              <div class="card p-2" style="width: 22rem;">
+                <img src="/static/images/Taman Wisata Pasir Kencana.png" alt="">
+                <div class="card-body">
+                  <h4> Wisata Pasir Kencana</h4>
+                  <p class="mb-4 lh-sm">Pantai Pasir Kencana,Panjang Wetan, Kec. Pekalongan Utara <br><br> Kota Pekalongan</p>
+                </div>
+                <div class="card-price">
+                  <span>
+                    <img src="/static/images/money.png" alt=""> Rp 25.000
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+              <div class="card p-2" style="width: 22rem;">
+                <img src="/static/images/Goa Terawang.png" alt="">
+                <div class="card-body">
+                  <h4>Goa Terawang</h4>
+                  <p class="mb-4 lh-sm">Kedungwungu, Todanan <br><br> Kabupaten Blora</p>
+                </div>
+                <div class="card-price">
+                  <span>
+                    <img src="/static/images/money.png" alt=""> Rp 7.000
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Jenis Wisata Section-->
+      <section id="jenis" class="overflow-hidden">
+        <div class="container position-relative">
+          <div class="row mb-4">
+            <div class="col-lg-9 col-md-12 text-center text-lg-start">
+              <h2>Jenis Wisata</h2>
+            </div>
+            <div class="col-lg-3 col-md-12">
+              <button class="button-temukan">Temukan..
+                <img src="/static/images/arrow temukan.png" alt="">
+              </button>
+            </div>
+          </div>
+
+          <div class="container position-relative mt-5">
+            <div class="row">
+              <div class="col-12 d-flex justify-content-start">
+                <div class="card-wisata me-2 position-relative">
+                  <img src="/static/images/jenis wisata 1.png" alt="">
+                  <div class="overlay position-absolute top-0 botton-0 start-0 end-0 w-100 h-100">
+                    <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
+                      <h5>Wisata Alam</h5>
+                      <p>Menikmati destinasi wisata alam di Jawa Tengah</p>
+                      <button>LIHAT SELENGKAPNYA</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card-wisata me-2 position-relative">
+                  <img src="/static/images/jenis wisata 2.png" alt="">
+                  <div class="overlay position-absolute top-0 botton-0 start-0 end-0 w-100 h-100">
+                    <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
+                      <h5>Wisata Pantai</h5>
+                      <p>Menikmati destinasi wisata pantai di Jawa Tengah</p>
+                      <button>LIHAT SELENGKAPNYA</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card-wisata me-2 position-relative">
+                  <img src="/static/images/jenis wisata 3.png" alt="">
+                  <div class="overlay position-absolute top-0 botton-0 start-0 end-0 w-100 h-100">
+                    <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
+                      <h5>Wisata Religi</h5>
+                      <p>Menikmati destinasi wisata religi di Jawa Tengah</p>
+                      <button>LIHAT SELENGKAPNYA</button>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="card-wisata me-2 position-relative">
+                  <img src="/static/images/jenis wisata 4.png" alt="">
+                  <div class="overlay position-absolute top-0 botton-0 start-0 end-0 w-100 h-100">
+                    <div class="position-absolute top-50 start-50 translate-middle text-center w-100">
+                      <h5>Wisata Budaya</h5>
+                      <p>Menikmati destinasi wisata budaya di Jawa Tengah</p>
+                      <button>LIHAT SELENGKAPNYA</button>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <button class="button-start position-absolute start-0 top-50 translate-middle-y">
+            <img src="/static/images/arrow start.png" alt="">
+          </button>
+
+          <button class="button-end position-absolute end-0 top-50 translate-middle-y">
+            <img src="/static/images/arrow end.png" alt="">
+          </button>
+        </div>
+      </section>
+
+      <!--About US Section-->
+      <section id="aboutus">
+        <div class="container h-100">
+          <div class="row mb-4">
+            <div class="col-12 text-center">
+              <h2>About Us</h2>
+              <h4>Teletubbies Team</h4>
+            </div>
+          </div>
+
+          <div class="row">
+            
+            <div class="col-lg-3 col-md-4 col-sm-3">
+              <div class="card-profile d-flex justify-content-center align-items-center p-4 rounded-lg rounded-md rounded-sm rounded-md rounded-sm flex-column">
+                <div class="person-img text-center mt-2">
+                  <img src="/static/images/ina.png" alt="">
+                </div>
+                <div class="person-name my-2 text-center">
+                  <h3>Christina Priscilla Putri</h3>
+                  <h5>Modelling</h5>
+                  <h5>223190004</h5>
+                  <h6>Universitas AKI Semarang</h6>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-3">
+              <div class="card-profile d-flex justify-content-center align-items-center p-4 rounded-lg rounded-md rounded-sm flex-column">
+                <div class="person-img text-center mt-2">
+                  <img src="/static/images/fara.png" alt="">
+                </div>
+                <div class="person-name text-center">
+                  <h3 class="my-1">Fara Zaitun Chusnullita</h3>
+                  <h5>Modelling</h5>
+                  <h5>140420252</h5>
+                  <h6>Universitas Negeri Semarang</h6>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-3">
+              <div class="card-profile d-flex justify-content-center align-items-center p-4 rounded-lg rounded-md rounded-sm flex-column">
+                <div class="person-img text-center mt-2">
+                  <img src="/static/images/intan.png" alt="">
+                </div>
+                <div class="person-name my-2 text-center">
+                  <h3>Nur Intan Ayu Nisaa'</h3>
+                  <h5>Deployment</h5>
+                  <h5>2019150102</h5>
+                  <h6>Universitas Sains Al-Qur'an</h6>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-4 col-sm-3">
+              <div class="card-profile d-flex justify-content-center align-items-center p-4 rounded-lg rounded-md rounded-sm flex-column">
+                <div class="person-img text-center mt-2">
+                  <img src="/static/images/yasmin.png" alt="">
+                </div>
+                <div class="person-name text-center">
+                  <h3 class="my-1">Yasmin Sri Dewi F.</h3>
+                  <h5>Deployment</h5>
+                  <h5>2005809</h5>
+                  <h6>Universitas Pendidikan Indonesia</h6>
+                </div>
+              </div>
+            </div>
+          
+          </div>    
+
+          <div class="row mb-4 mt-5">
+            <div class="col-12 text-center">
+              <h2>Coaches</h2>
+              <h4>Cactus Class</h4>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-3 col-sm-2 mb-4"></div>
+
+            <div class="col-lg-4 col-md-3 col-sm-2 mb-4">
+              <div class="card-profile-coach d-flex justify-content-center align-items-center p-4 rounded-lg rounded-md rounded-sm flex-column">
+                <div class="person-img text-center mt-2">
+                  <img src="/static/images/coach herlin.png" alt="">
+                </div>
+                <div class="person-name text-center">
+                  <h3 class="my-5">Herlin Dwi Astuti,S.Kom</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-3 col-sm-2 mb-4"></div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!--Contact Section-->
+      <section id="contact">
+        <div class="container-fluid overlay h-100">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <h3>Membutuhkan Informasi Tentang Tempat Wisata Jawa Tengah..?</h3>
+                <h3>Siap Membantu</h3>
+                  <div class="kontak">
+                    <h6>Kontak</h6>
+                    <div class="mb-3">
+                      <img src="/static/images/kontak.png" alt="">
+                      <a href="#">0858-7534-98676</a>
+                    </div>
+                    <div class="mb-3">
+                      <img src="/static/images/email.png" alt="">
+                      <a href="#">jagabota@gmail.com</a>
+                    </div>
+
+                    <h6>Sosial Media</h6>
+                    <a href="#" class="me-lg-3 me-1"><img src="/static/images/facebook.png" alt=""></a>
+                    <a href="#" class="me-lg-3 me-1"><img src="/static/images/twitter.png" alt=""></a>
+                    <a href="#" class="me-lg-3 me-1"><img src="/static/images/instagram.png" alt=""></a>
+                    <a href="#"> Jagabota </a>
+                  </div>
+              </div>
+
+              <div class="col-md-6">
+                <div class="card-contact w-100">
+                  <form>
+                    <h2>Ada Pertanyaan..?</h2>
+                    <div class="form-floating mb-3">
+                      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                      <label for="floatingInput" class="d-flex align-items-center">Masukkan email kamu disini...</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                      <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                      <label for="floatingInput" class="d-flex align-items-center">Tulis pertanyaan kamu...</label>
+                    </div>
+
+                    <button type="submit" class="button-kontak">Kirim</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Footer-->
+      <footer class="d-flex align-items-center position-relative">
+        <div class="container-fluid">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-7 d-flex align-items-center justify-content-lg-start justify-content-center">
+                <img src="/static/images/logo.png" alt="">
+                <a href="#" class="ms-3">Pariwisata Jawa Tengah</a>
+              </div>
+              <div class="col-md-5 d-flex justify-content-evenly align-items-center justify-content-center">
+                <a href="#hero">Beranda</a>
+                <a href="#wisata">Wisata</a>
+                <a href="#aboutus">About Us</a>
+                <a href="#contact">Kontak</a>
+              </div>
+            </div>
+            <div class="row position-absolute copyright start-50 translate-middle">
+              <div class="col-12">
+                <p class="text-center">Copyright © 2022 Jagabota.com All Rights Reserved.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <!--Chatbot-->
+      <div class="container">
+        <div class="chatbox position-fixed">
+
+          <div class="chatbox__support">
+            <div class="chatbox__header">
+              <div class="chatbox__image--header">
+                <img src="https://img.icons8.com/external-icongeek26-flat-icongeek26/64/null/external-Blangkong-indonesia-icongeek26-flat-icongeek26.png" alt="image">
+              </div>
+              <div class="chatbox__content--header">
+                <h4 class="chatbox__heading--header">JAGABOTA</h4>
+                    <p class="chatbox__description--header">Hi, ini Jagabota. Mau pergi wisata kemana nihh? ^^</p>
+              </div>
+            </div>
+
+            <div class="chatbox__messages">
+              <div></div>
+            </div>
+
+            <div class="chatbox__footer">
+              <input type="text" placeholder="Write a message...">
+                <button class="chatbox__send--footer send__button">Send</button>
+            </div>
+          </div>
+
+          <div class="chatbox__button">
+            <button><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" /></button>
+          </div>
+
+        </div>
+      </div>
+    
+      <script>
+        $SCRIPT_ROOT = {{ request.script_root|tojson }};
+    </script>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

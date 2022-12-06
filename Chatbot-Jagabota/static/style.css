@@ -1,0 +1,378 @@
+:root {
+    --pr-color : #213957;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #E0E5EB ;
+}
+
+
+/* navbar style */
+.navbar {
+    z-index: 3;
+}
+
+*{
+    z-index: 2;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav-link { 
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.nav-link.active {
+    font-weight: 700;
+}
+
+
+/* hero section */
+#hero{
+    background-image: url(../static/images/background.png);
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hero .overlay{
+    background:rgba(0, 0, 0, 0.38);
+}
+
+#hero .container{
+    padding: 148px 0 148px 0;
+}
+
+.hero-tagline h1 {
+    color: #ffff;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 68px;
+    padding-left: 65px;
+}
+
+.hero-tagline p{
+    color: #FFFFFF;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    padding-left: 65px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    text-shadow: 0px 4px 4px var(--pr-color);
+}
+
+.logo-chatbot{
+    position: absolute;
+    width: 80px;
+    height: 82px;
+    left: 93px;
+    top: 490px;
+}
+
+.button-lg-primary{
+    position: absolute;
+    width: 180px;
+    height: 60px;
+    left: 193px;
+    top: 503px;
+    background-color: #ffff;
+    color: var(--pr-color);
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+/* Wisata section */
+#wisata{
+    padding: 100px;
+}
+
+h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: var(--pr-color);
+}
+
+.card{
+    height: 420px;
+    border: none;
+    width: 95%;
+}
+
+.card-body h4{
+    color: #000000;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.card-body p{
+    color: #000000;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.card:hover{
+    background: linear-gradient(145.51deg, #7591B5 1.32%, #2D4360 35.99%, #142438 62.75%, #0B1421 98.53%);
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .25);
+    transition: all ease-in-out .3s;
+}
+
+.card:hover .card-body h4{
+    color: #ffff;
+    transition: all ease-in-out .3s;
+}
+
+.card:hover .card-body p{
+    color: #ffff;
+    transition: all ease-in-out .3s;
+}
+
+.card-price{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 20px;
+    background-color: #ffff;
+}
+
+
+/* Janis Wisata section */
+.button-temukan{
+    width: 279px;
+    height: 63px;
+    background-color: var(--pr-color);
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+#fitur h2{
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.card-wisata h5{
+    font-weight: 600;
+    font-size: 35px;
+    color: #FFFFFF;
+}
+
+.card-wisata p{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.card-wisata button{
+    background-color: var(--pr-color);
+    color: #FFFFFF;
+    border: none;
+    width: 125px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.card-wisata .overlay{
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0;
+    transition: all ease ease-in-out .3s;
+}
+
+.card-wisata .overlay:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+}
+
+.button-start{
+    border: none;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    background-color: var(--pr-color);
+    padding: 0;
+}
+
+.button-end{
+    border: none;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    background-color: var(--pr-color);
+    padding: 0;
+}
+
+
+/*About US Section*/
+#aboutus{
+    padding: 100px;
+}
+
+#aboutus h4{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 45px;
+    color: var(--pr-color);
+}
+
+.card-profile{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    color: var(--pr-color);
+}
+
+.card-profile h3{
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 27px;
+    color: var(--pr-color);
+}
+
+.card-profile h5{
+    font-weight: 600;
+    font-size: 18px;
+    color: var(--pr-color);
+}
+
+.card-profile h6{
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--pr-color);
+}
+
+.card-profile-coach{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    color: var(--pr-color);
+    margin-left: 50;
+}
+
+.card-profile-coach h3{
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 27px;
+    color: var(--pr-color);
+}
+
+.card-profile-coach-x{
+    background-color: transparent;
+}
+
+/* contact section */
+#contact{
+    background-image: url(../static/images/background\ kontak.png);
+    margin-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#contact .overlay{
+    background: rgba(33, 57, 87, 0.51);
+}
+
+#contact .container{
+    padding: 148px 0 148px 0;
+}
+
+#contact h3{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.kontak h6{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin: 19px 0 14px 0;
+}
+
+.kontak a{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+.card-contact{
+    width: 100%;
+    height: 445px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding: 52px 48px;
+}
+
+.card-contact h2{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 60px;
+    color: var(--pr-color);
+    text-align: center;
+    margin-bottom: 21px;
+}
+
+.form-control{
+    background: #c4c4c4;
+    height: 75px !important;
+}
+
+.form-floating label{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #717171;
+}
+
+.button-kontak{
+    width: 100%;
+    height: 75px;
+    background: var(--pr-color);
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    border: none;
+}
+
+
+/* Footer */
+footer{
+    width: 100%;
+    height: 200px;
+    background: #142438;
+}
+
+.copyright{
+    bottom: 1%;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+
+}
+
+footer a{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+}

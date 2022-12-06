@@ -1,0 +1,27 @@
+@media screen and (max-width : 922px) {
+    .button-temukan{
+        width: 100%;
+    }
+
+    #contact h3{
+        width: 100%;
+    }
+    .card-contact{
+        width: 100%;
+        height: auto;
+        padding: 52px 48px;
+        margin-top: 42px;
+    }
+    
+    .card-contact h2{
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 21px;
+    }
+}
+
+@media  and (max-width : 576px) {
+    .hero-tagline h1{
+        line-height: 50px;
+    }
+}
